@@ -51,8 +51,7 @@ services:
     environment:
       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
       SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
-
-
+      SPRING.CLOUD.CONFIG.SERVER.GIT.URI: https://github.com/spring-cloud-samples/config-repo
 
   limits-service:
     image: imthiagu/mmv2-limits-service:0.0.1-SNAPSHOT
