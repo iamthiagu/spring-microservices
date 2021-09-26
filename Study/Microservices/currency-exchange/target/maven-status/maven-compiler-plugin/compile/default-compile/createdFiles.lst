@@ -1,0 +1,5 @@
+com/imthiagu/microservices/currencyexchange/beans/CurrencyExchange.class
+com/imthiagu/microservices/currencyexchange/CurrencyExchangeApplication.class
+com/imthiagu/microservices/currencyexchange/controller/CurrencyExchangeController.class
+com/imthiagu/microservices/currencyexchange/repository/CurrencyExchangeRepository.class
+com/imthiagu/microservices/currencyexchange/controller/CircuitBreakerController.class
